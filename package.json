@@ -1,10 +1,12 @@
 {
-  "name": "media_saturn",
+  "name": "retail-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/webpack/bin/webpack.js --mode development --watch",
+    "start": "concurrently \"npm run client\" \"npm run server\" ",
+    "client": "node_modules/webpack/bin/webpack.js --mode development --watch",
+    "server": "nodemon src/server/index.js",
     "build": "node_modules/webpack/bin/webpack.js --mode production",
     "test": "./node_modules/.bin/jest"
   },
@@ -20,9 +22,9 @@
   },
   "devDependencies": {
     "@types/jest": "^22.2.3",
-    "ajv": "^6.5.0",
     "awesome-typescript-loader": "^5.0.0",
     "clean-webpack-plugin": "^0.1.19",
+    "concurrently": "^3.5.1",
     "css-loader": "^0.28.11",
     "extract-loader": "^2.0.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
