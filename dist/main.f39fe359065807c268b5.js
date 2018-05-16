@@ -66,15 +66,15 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.tsx");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/client/index.tsx");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/assets/scss/style.scss":
-/*!************************************!*\
-  !*** ./src/assets/scss/style.scss ***!
-  \************************************/
+/***/ "./src/client/assets/scss/style.scss":
+/*!*******************************************!*\
+  !*** ./src/client/assets/scss/style.scss ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -82,10 +82,10 @@
 
 /***/ }),
 
-/***/ "./src/components/Hello.tsx":
-/*!**********************************!*\
-  !*** ./src/components/Hello.tsx ***!
-  \**********************************/
+/***/ "./src/client/components/Hello.tsx":
+/*!*****************************************!*\
+  !*** ./src/client/components/Hello.tsx ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -103,10 +103,10 @@ exports.Hello = function (props) { return React.createElement("h1", null,
 
 /***/ }),
 
-/***/ "./src/index.tsx":
-/*!***********************!*\
-  !*** ./src/index.tsx ***!
-  \***********************/
+/***/ "./src/client/index.tsx":
+/*!******************************!*\
+  !*** ./src/client/index.tsx ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -115,8 +115,8 @@ exports.Hello = function (props) { return React.createElement("h1", null,
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(/*! react */ "react");
 var ReactDOM = __webpack_require__(/*! react-dom */ "react-dom");
-var Hello_1 = __webpack_require__(/*! ./components/Hello */ "./src/components/Hello.tsx");
-__webpack_require__(/*! ./assets/scss/style.scss */ "./src/assets/scss/style.scss");
+var Hello_1 = __webpack_require__(/*! ./components/Hello */ "./src/client/components/Hello.tsx");
+__webpack_require__(/*! ./assets/scss/style.scss */ "./src/client/assets/scss/style.scss");
 ReactDOM.render(React.createElement(Hello_1.Hello, { compiler: "TypeScript", framework: "React" }), document.getElementById("example"));
 
 
@@ -145,4 +145,4 @@ module.exports = ReactDOM;
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.8db30d73b00c58a457d4.js.map
+//# sourceMappingURL=main.f39fe359065807c268b5.js.map
