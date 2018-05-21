@@ -1,0 +1,42 @@
+.product-page{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+}
+.product-list {
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.sidebar-left{
+    grid-column: 1 / span 1;
+    padding: 0 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.filter-wrapper{
+    width: 100%;
+}
+
+.filter-wrapper input{
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+  
+    .product-list,
+    .sidebar-left {
+      grid-column: 1 / span 4;
+    }
+    
+  }
+    
+
+
+
+
+
+  

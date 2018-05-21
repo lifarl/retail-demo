@@ -1,0 +1,31 @@
+// Global Variables
+
+$font-stack: Eurostile, sans-serif;
+$basic-color: #1d1d1d;
+$light-background: #f3f1f1;
+
+body {
+    font: 100% $font-stack;
+    color: $basic-color;
+  }
+
+// App Grid
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+  }
+
+header,
+footer{
+    background: $light-background;
+}
+
+header, footer, .app-content{
+    grid-column: 1 / span 5;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

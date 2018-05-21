@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Sony Experia X",
+        "description": "The Sony Xperia X is an Android smartphone produced by Sony.",
+        "price": 199,
+        "filename": "sony_experia_x.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy S9",
+        "description": "The Samsung Galaxy S9 and Samsung Galaxy S9+ are produced by Samsung.",
+        "price": 328,
+        "filename": "samsung_galaxy_s9.png"
+    },
+    {
+        "id": 3,
+        "name": "Iphone X",
+        "description": "iPhone X ('X' pronounced 'ten') is designed by Apple Inc.",
+        "price": 1099,
+        "filename": "iphone_x.png"
+    },
+    {
+        "id": 5,
+        "name": "Huawai P20 Pro",
+        "description": "The Huawei P20 and Huawei P20 Pro are high-end Smartphone with dual Leika cameras.",
+        "price": 1049,
+        "filename": "huawai_p20_pro.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Google Pixel 2 XL",
+        "description": "An Android Smartphone designed and developed by google.",
+        "price": 849,
+        "filename": "google_pixel_2_xl.jpg"
+    }
+]

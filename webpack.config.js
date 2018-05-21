@@ -40,7 +40,16 @@ module.exports = {
                     fallback: 'style-loader',
                     use: ['css-loader', 'sass-loader']
                   })
-              }
+            },
+            {
+                test : /\.(png|jpg|gif|jpeg)$/,
+                exclude: /(node_modules)/,
+                loader : 'file-loader',
+                options: {
+                    name: 'img/[name].[ext]',
+                    context: ''
+                  }
+            }
         ]
     },
     devServer: {
