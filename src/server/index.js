@@ -5,6 +5,7 @@ const app = express();
 var products = require ("./data/products.json");
 
 app.use(express.static("dist"));
+
 app.get("/api/products", (req, res) => {   
   res.send(products)
   }

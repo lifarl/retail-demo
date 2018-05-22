@@ -3,7 +3,8 @@ module.exports = {
     '<rootDir>/src'
   ],
   'transform': {
-    '.*\.tsx?$': 'ts-jest'
+    '.*\.tsx?$': 'ts-jest',
+    '\\.(css|scss)$': '<rootDir>/__mocks__/styleMock.js'
   },
   'testRegex': '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$',
   'moduleFileExtensions': [
@@ -12,6 +13,8 @@ module.exports = {
     'js',
     'jsx',
     'json',
-    'node'
+    'node',
+    'scss',
+    'css'
   ]
 }

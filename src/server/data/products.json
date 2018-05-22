@@ -1,37 +1,51 @@
 [
     {
         "id": 1,
-        "name": "Sony Experia X",
-        "description": "The Sony Xperia X is an Android smartphone produced by Sony.",
-        "price": 199,
-        "filename": "sony_experia_x.jpg"
+        "name": "Google Pixel 2 XL",
+        "description": "The Google Pixel 2 XL is an amazing smartphone - especially if you prioritise camera quality and want software straight from Google.",
+        "price": 849,
+        "filename": "google_pixel_2_xl.jpg"
     },
     {
         "id": 2,
         "name": "Samsung Galaxy S9",
-        "description": "The Samsung Galaxy S9 and Samsung Galaxy S9+ are produced by Samsung.",
-        "price": 328,
+        "description": "The Samsung Galaxy S9 is the best Android smartphone in the world right now, boasting the brilliant Infinity Edge display which occupies 84-percent of the body and cutting-edge guts.",
+        "price": 609,
         "filename": "samsung_galaxy_s9.png"
     },
     {
         "id": 3,
+        "name": "HTC U11",
+        "description": "The HTC U11 is the most impressive smartphone HTC has made in many years.",
+        "price": 768,
+        "filename": "htc_u11.jpg"
+    },
+    {
+        "id": 4,
         "name": "Iphone X",
-        "description": "iPhone X ('X' pronounced 'ten') is designed by Apple Inc.",
+        "description": "TThe first thing that strikes you about the design is, obviously, the 5.8-inch AMOLED screen.  It's certainly true that the edge-to-edge screen looks absolutely stunning, both from a design perspective and from a technology viewpoint. ",
         "price": 1099,
         "filename": "iphone_x.png"
     },
     {
         "id": 5,
         "name": "Huawai P20 Pro",
-        "description": "The Huawei P20 and Huawei P20 Pro are high-end Smartphone with dual Leika cameras.",
+        "description": "The Huawei P20 Pro is the latest flagship from the Chinese smartphone giant. The Huawei P20 and Huawei P20 Pro are high-end Smartphone with dual Leika cameras.",
         "price": 1049,
         "filename": "huawai_p20_pro.jpg"
     },
     {
         "id": 6,
-        "name": "Google Pixel 2 XL",
-        "description": "An Android Smartphone designed and developed by google.",
-        "price": 849,
-        "filename": "google_pixel_2_xl.jpg"
+        "name": "Sony Experia X",
+        "description": "The Sony Xperia X is an Android smartphone produced by Sony.",
+        "price": 199,
+        "filename": "sony_experia_x.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Samsung Galaxy S8",
+        "description": "The Samsung Galaxy S8 is a phone that should be one of the very first you look at when deciding which new phone you buy.",
+        "price": 422,
+        "filename": "samsung_galaxy_s8.jpeg"
     }
 ]

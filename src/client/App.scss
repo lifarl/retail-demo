@@ -1,31 +1,37 @@
-// Global Variables
+@import "assets/scss/global";
 
-$font-stack: Eurostile, sans-serif;
-$basic-color: #1d1d1d;
-$light-background: #f3f1f1;
-
-body {
-    font: 100% $font-stack;
-    color: $basic-color;
-  }
-
-// App Grid
+%grid-props{
+  grid-column: 1 / span 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0;
-  }
-
-header,
-footer{
-    background: $light-background;
 }
 
-header, footer, .app-content{
-    grid-column: 1 / span 5;
-    padding: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header{
+  @extend %grid-props;
+  background: $light-background;
+  padding: 1em;
+}
+
+footer{
+  @extend %grid-props;
+  background: $light-background;
+  padding: 1em;
+}
+
+.app-content{
+  @extend %grid-props;
+  padding: 1em;
+  @media (max-width: 420px){  
+    padding-right: 0.3em;
+    padding-left: 0.3em;
   }
+}
+
+

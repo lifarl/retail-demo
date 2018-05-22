@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Product.scss";
 
-interface ProductItem{
+export interface ProductItem{
   id: number,
   name: string,
   description: string,
@@ -24,7 +24,7 @@ export class Product extends React.Component<ProductProps,{}> {
             </div>
             <div className="product-info">
                 <h4 className="product-title">{this.props.product.name}</h4>
-                <p className="product-decription">{this.props.product.description}</p>
+                <p className="product-description">{this.props.product.description}</p>
                 <p className="product-price">{this.props.product.price} €</p>
             </div>
       </div>

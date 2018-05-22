@@ -1,0 +1,12 @@
+// Global Variables
+
+$font-stack: Eurostile, sans-serif;
+$basic-color: #1d1d1d;
+$light-background: #f3f1f1;
+$light-text: rgb(73, 73, 73);
+
+body {
+    font: 100% $font-stack;
+    color: $basic-color;
+    margin: 0;
+  }
