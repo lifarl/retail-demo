@@ -17,9 +17,9 @@ export class App extends React.Component {
         )
 
         const footer = (
-                <header>
+                <footer>
                 Footer
-                </header>
+                </footer>
         );
 
         return(

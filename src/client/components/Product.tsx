@@ -11,7 +11,7 @@ export interface ProductItem{
 
 export interface ProductProps {
     product: ProductItem;
-};
+}
 
 export class Product extends React.Component<ProductProps,{}> {
 

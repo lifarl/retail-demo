@@ -36,13 +36,6 @@
     },
     {
         "id": 6,
-        "name": "Sony Experia X",
-        "description": "The Sony Xperia X is an Android smartphone produced by Sony.",
-        "price": 199,
-        "filename": "sony_experia_x.jpg"
-    },
-    {
-        "id": 7,
         "name": "Samsung Galaxy S8",
         "description": "The Samsung Galaxy S8 is a phone that should be one of the very first you look at when deciding which new phone you buy.",
         "price": 422,

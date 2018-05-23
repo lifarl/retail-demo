@@ -2,7 +2,7 @@ const express = require("express");
 const os = require("os");
 const app = express();
 
-var products = require ("./data/products.json");
+const products = require ("./data/products.json");
 
 app.use(express.static("dist"));
 

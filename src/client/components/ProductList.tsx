@@ -27,8 +27,8 @@ export class ProductList extends React.Component<{},ProductState> {
 
   async componentDidMount() {
 
-    var req = require.context("../assets/img/smartphones", false, /.*\.(png|jpg|gif|jpeg)$/);
-    req.keys().forEach(function(key:any){
+    let req = require.context("../assets/img/smartphones", false, /.*\.(png|jpg|gif|jpeg)$/);
+    req.keys().forEach(function(key:string){
         req(key);
     });
 
@@ -44,7 +44,7 @@ export class ProductList extends React.Component<{},ProductState> {
     }
   }
 
-  filterByName(evt: React.ChangeEvent<HTMLInputElement>) {
+  private filterByName(evt: React.ChangeEvent<HTMLInputElement>) {
     let searchValue = evt.target.value.toLowerCase();
     let filtered = this.state.initialList;
     filtered = _.filter(filtered, (item) => {
