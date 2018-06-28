@@ -1,6 +1,6 @@
 # retail-demo
 
-Small demo application with react, webpack and typescript.
+Small demo application with react, webpack, typescript, sass, jest and express
 
 ## Usage
 
